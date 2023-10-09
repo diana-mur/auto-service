@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&display=swap');
+
+.container {
+    background: url(../assets/Background.png);
+    background-size: cover;
+    width: calc(100vw - 80px);
+    height: calc(100vh - 56px);
+    border-radius: 32px;
+    padding: 0 80px;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 0;
+    /*border-bottom: 1px solid #282828;*/
+}
+
+.header_logo {
+    display: flex;
+    gap: 56px; 
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.services {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 15px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #FF001D;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+menu {
+    display: flex;
+    gap: 72px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+ul {
+    display: flex;
+    gap: 56px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+menu a {
+    color: #FFF; 
+    text-decoration: none; 
+}
+
+.headerLine {
+    width: 100%;
+    height: 1px;
+    background-color: #282828;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 500;
+    margin: 119px auto 32px 0;
+}
+
+.rw-btn {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.red-btn {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+    padding: 24px 40px 24px 48px;
+    background-color: #FF001D;
+    border: none;
+    border-radius: 16px;
+}
+
+.white-btn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+    padding: 24px 40px 24px 48px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.20);
+    border-radius: 16px;
+}
