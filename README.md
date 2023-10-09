@@ -1,4 +1,6 @@
-# React + Vite
+# React + Vite (Автосервис это, не переживай)
+
+тут файлы на реакте, текст на англ сам добавился, и я все равно его оставила
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
